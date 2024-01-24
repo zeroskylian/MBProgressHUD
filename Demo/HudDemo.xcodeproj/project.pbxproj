@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		5BE141EE1CD8C33D0023BC9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */; };
-		D22F7D810F85241C00550BB3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F7D800F85241C00550BB3 /* MBProgressHUD.m */; };
+		8C8626002B610C2F00BD8C13 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8625FD2B610C2F00BD8C13 /* MBProgressHUD.m */; };
+		8C8626012B610C2F00BD8C13 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8C8625FF2B610C2F00BD8C13 /* PrivacyInfo.xcprivacy */; };
 		D274948B1D3B74AA00ABEB66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D274948A1D3B74AA00ABEB66 /* Images.xcassets */; };
 		D27F18451D3B5878009D7482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18441D3B5878009D7482 /* main.m */; };
 		D27F18481D3B5878009D7482 /* MBHudDemoTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18471D3B5878009D7482 /* MBHudDemoTVAppDelegate.m */; };
 		D27F184B1D3B5878009D7482 /* MBHudDemoTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F184A1D3B5878009D7482 /* MBHudDemoTVViewController.m */; };
 		D27F184E1D3B5878009D7482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27F184C1D3B5878009D7482 /* Main.storyboard */; };
-		D27F18551D3B5AAF009D7482 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F7D800F85241C00550BB3 /* MBProgressHUD.m */; };
 		D27F185A1D3B5DFF009D7482 /* MBHudDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18581D3B5DFF009D7482 /* MBHudDemoAppDelegate.m */; };
 		D27F185B1D3B5DFF009D7482 /* MBHudDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18591D3B5DFF009D7482 /* MBHudDemoViewController.m */; };
 		D27F185E1D3B5E0D009D7482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F185D1D3B5E0D009D7482 /* main.m */; };
@@ -43,8 +43,9 @@
 		1D6058910D05DD3D006BFB54 /* HudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D22F7D7F0F85241C00550BB3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ../MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
-		D22F7D800F85241C00550BB3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ../MBProgressHUD.m; sourceTree = "<group>"; };
+		8C8625FD2B610C2F00BD8C13 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8C8625FE2B610C2F00BD8C13 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8C8625FF2B610C2F00BD8C13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		D274948A1D3B74AA00ABEB66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D27F18411D3B5878009D7482 /* HudDemoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudDemoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27F18441D3B5878009D7482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,10 +129,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8C8625FC2B610C2F00BD8C13 /* Sources */,
 				080E96DDFE201D6D7F000001 /* HudDemo */,
 				D27F18421D3B5878009D7482 /* HudDemoTV */,
 				D2B174101C5E3A3D00021915 /* HudTests */,
-				D28CBB391A87A6B00052DCEC /* MBProgressHUD */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -168,6 +169,17 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C8625FC2B610C2F00BD8C13 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8C8625FE2B610C2F00BD8C13 /* MBProgressHUD.h */,
+				8C8625FD2B610C2F00BD8C13 /* MBProgressHUD.m */,
+				8C8625FF2B610C2F00BD8C13 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		D277FDBF11FC880100304321 /* UI */ = {
@@ -209,15 +221,6 @@
 				D274948A1D3B74AA00ABEB66 /* Images.xcassets */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		D28CBB391A87A6B00052DCEC /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				D22F7D7F0F85241C00550BB3 /* MBProgressHUD.h */,
-				D22F7D800F85241C00550BB3 /* MBProgressHUD.m */,
-			);
-			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		D2B174101C5E3A3D00021915 /* HudTests */ = {
@@ -290,8 +293,9 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				CLASSPREFIX = MB;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Matej Bukovinski";
 				TargetAttributes = {
 					D27F18401D3B5878009D7482 = {
@@ -329,6 +333,7 @@
 			files = (
 				D27F18641D3B5E21009D7482 /* Main.storyboard in Resources */,
 				D2EEB3811B55967200F59EC1 /* Images.xcassets in Resources */,
+				8C8626012B610C2F00BD8C13 /* PrivacyInfo.xcprivacy in Resources */,
 				D27F18631D3B5E21009D7482 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,9 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D27F185B1D3B5DFF009D7482 /* MBHudDemoViewController.m in Sources */,
-				D22F7D810F85241C00550BB3 /* MBProgressHUD.m in Sources */,
 				D27F185E1D3B5E0D009D7482 /* main.m in Sources */,
 				D27F185A1D3B5DFF009D7482 /* MBHudDemoAppDelegate.m in Sources */,
+				8C8626002B610C2F00BD8C13 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +376,6 @@
 				D27F184B1D3B5878009D7482 /* MBHudDemoTVViewController.m in Sources */,
 				D27F18481D3B5878009D7482 /* MBHudDemoTVAppDelegate.m in Sources */,
 				D27F18451D3B5878009D7482 /* main.m in Sources */,
-				D27F18551D3B5AAF009D7482 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HudDemo/HudDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
@@ -446,6 +453,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bukovinski.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = HudDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,6 +465,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HudDemo/HudDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
@@ -466,6 +477,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bukovinski.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = HudDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,6 +501,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -496,6 +509,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -505,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -528,12 +542,14 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -543,7 +559,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -561,6 +577,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -571,7 +588,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = HudDemoTV/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bukovinski.HudDemoTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -594,12 +614,16 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES_AGGRESSIVE;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = HudDemoTV/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bukovinski.HudDemoTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,7 +657,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = HudTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bukovinski.HudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -660,7 +688,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = HudTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bukovinski.HudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
