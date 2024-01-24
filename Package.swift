@@ -1,4 +1,6 @@
-// swift-tools-version:5.9
+// swift-tools-version: 5.9
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
 import PackageDescription
 
 let package = Package(
@@ -15,7 +17,6 @@ let package = Package(
             name: "MBProgressHUD",
             path: "Sources",
             exclude: ["Demo"],
-            sources: ["MBProgressHUD.h", "MBProgressHUD.m"],
             publicHeadersPath: "include",
             resources: [.copy("PrivacyInfo.xcprivacy")]
         )
