@@ -17,6 +17,7 @@ let package = Package(
             name: "MBProgressHUD",
             path: "Sources",
             exclude: ["Demo"],
+            // publicHeadersPath: "Sources/MBProgressHUD/include/MBProgressHUD"
             resources: [.copy("PrivacyInfo.xcprivacy")]
         )
     ]
