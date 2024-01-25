@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C8625FB2B610BEB00BD8C13 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8625F82B610BEB00BD8C13 /* MBProgressHUD.m */; };
+		8C86260A2B611A0A00BD8C13 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8626092B611A0A00BD8C13 /* MBProgressHUD.m */; };
 		D286A74D1518C70F00E13FB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D286A74C1518C70F00E13FB8 /* Foundation.framework */; };
 		D286A75E1518C89600E13FB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D286A75D1518C89600E13FB8 /* UIKit.framework */; };
 		D286A76F1518CAAD00E13FB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D286A76E1518CAAD00E13FB8 /* CoreGraphics.framework */; };
@@ -31,9 +31,9 @@
 		1777D3E21D757AF50037C7F1 /* Framework-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-tvOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1D104D7A1ACA36CC00973364 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D104D951ACA376200973364 /* Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = SOURCE_ROOT; };
-		8C8625F82B610BEB00BD8C13 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		8C8625F92B610BEB00BD8C13 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		8C8625FA2B610BEB00BD8C13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8C8626062B611A0A00BD8C13 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8C8626072B611A0A00BD8C13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8C8626092B611A0A00BD8C13 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		D286A7491518C70F00E13FB8 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D286A74C1518C70F00E13FB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D286A75D1518C89600E13FB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -78,14 +78,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8C8625F72B610BEB00BD8C13 /* Sources */ = {
+		8C8626032B611A0A00BD8C13 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8C8625F92B610BEB00BD8C13 /* MBProgressHUD.h */,
-				8C8625F82B610BEB00BD8C13 /* MBProgressHUD.m */,
-				8C8625FA2B610BEB00BD8C13 /* PrivacyInfo.xcprivacy */,
+				8C8626042B611A0A00BD8C13 /* include */,
+				8C8626072B611A0A00BD8C13 /* PrivacyInfo.xcprivacy */,
+				8C8626082B611A0A00BD8C13 /* MBProgressHUD */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		8C8626042B611A0A00BD8C13 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8C8626052B611A0A00BD8C13 /* MBProgressHUD */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8C8626052B611A0A00BD8C13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8C8626062B611A0A00BD8C13 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		8C8626082B611A0A00BD8C13 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8C8626092B611A0A00BD8C13 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		D286A73E1518C70E00E13FB8 = {
@@ -120,7 +144,7 @@
 		D286A74E1518C70F00E13FB8 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				8C8625F72B610BEB00BD8C13 /* Sources */,
+				8C8626032B611A0A00BD8C13 /* Sources */,
 				1315DD72178044770032507D /* Supporting Files */,
 			);
 			name = MBProgressHUD;
@@ -274,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8625FB2B610BEB00BD8C13 /* MBProgressHUD.m in Sources */,
+				8C86260A2B611A0A00BD8C13 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
