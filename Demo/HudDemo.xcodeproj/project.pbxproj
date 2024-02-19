@@ -10,8 +10,7 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		5BE141EE1CD8C33D0023BC9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */; };
-		8CC7A1762B61EB63007B87B1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8CC7A1732B61EB63007B87B1 /* PrivacyInfo.xcprivacy */; };
-		8CC7A1772B61EB63007B87B1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC7A1752B61EB63007B87B1 /* MBProgressHUD.m */; };
+		8CD06B122B83534E0059F497 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD06B102B83534E0059F497 /* MBProgressHUD.m */; };
 		D274948B1D3B74AA00ABEB66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D274948A1D3B74AA00ABEB66 /* Images.xcassets */; };
 		D27F18451D3B5878009D7482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18441D3B5878009D7482 /* main.m */; };
 		D27F18481D3B5878009D7482 /* MBHudDemoTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D27F18471D3B5878009D7482 /* MBHudDemoTVAppDelegate.m */; };
@@ -43,10 +42,8 @@
 		1D6058910D05DD3D006BFB54 /* HudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BE141ED1CD8C33D0023BC9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8CC7A1712B61EB63007B87B1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		8CC7A1722B61EB63007B87B1 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		8CC7A1732B61EB63007B87B1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		8CC7A1752B61EB63007B87B1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8CD06B102B83534E0059F497 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8CD06B112B83534E0059F497 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		D274948A1D3B74AA00ABEB66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D27F18411D3B5878009D7482 /* HudDemoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HudDemoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27F18441D3B5878009D7482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +103,7 @@
 		080E96DDFE201D6D7F000001 /* HudDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8CD06B0F2B83534E0059F497 /* MBProgressHUD */,
 				D2B1269B23CB8D9C00A01F4C /* HudDemo.entitlements */,
 				D27F18561D3B5DFF009D7482 /* MBHudDemoAppDelegate.h */,
 				D27F18571D3B5DFF009D7482 /* MBHudDemoViewController.h */,
@@ -130,7 +128,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				8CC7A16E2B61EB63007B87B1 /* Sources */,
 				080E96DDFE201D6D7F000001 /* HudDemo */,
 				D27F18421D3B5878009D7482 /* HudDemoTV */,
 				D2B174101C5E3A3D00021915 /* HudTests */,
@@ -172,40 +169,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8CC7A16E2B61EB63007B87B1 /* Sources */ = {
+		8CD06B0F2B83534E0059F497 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				8CC7A16F2B61EB63007B87B1 /* include */,
-				8CC7A1732B61EB63007B87B1 /* PrivacyInfo.xcprivacy */,
-				8CC7A1742B61EB63007B87B1 /* MBProgressHUD */,
+				8CD06B112B83534E0059F497 /* MBProgressHUD.h */,
+				8CD06B102B83534E0059F497 /* MBProgressHUD.m */,
 			);
-			name = Sources;
-			path = ../Sources;
-			sourceTree = "<group>";
-		};
-		8CC7A16F2B61EB63007B87B1 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				8CC7A1702B61EB63007B87B1 /* MBProgressHUD */,
-				8CC7A1722B61EB63007B87B1 /* module.modulemap */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		8CC7A1702B61EB63007B87B1 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				8CC7A1712B61EB63007B87B1 /* MBProgressHUD.h */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		8CC7A1742B61EB63007B87B1 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				8CC7A1752B61EB63007B87B1 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
+			name = MBProgressHUD;
+			path = ../../Sources/MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		D277FDBF11FC880100304321 /* UI */ = {
@@ -359,7 +330,6 @@
 			files = (
 				D27F18641D3B5E21009D7482 /* Main.storyboard in Resources */,
 				D2EEB3811B55967200F59EC1 /* Images.xcassets in Resources */,
-				8CC7A1762B61EB63007B87B1 /* PrivacyInfo.xcprivacy in Resources */,
 				D27F18631D3B5E21009D7482 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,7 +361,7 @@
 				D27F185B1D3B5DFF009D7482 /* MBHudDemoViewController.m in Sources */,
 				D27F185E1D3B5E0D009D7482 /* main.m in Sources */,
 				D27F185A1D3B5DFF009D7482 /* MBHudDemoAppDelegate.m in Sources */,
-				8CC7A1772B61EB63007B87B1 /* MBProgressHUD.m in Sources */,
+				8CD06B122B83534E0059F497 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
