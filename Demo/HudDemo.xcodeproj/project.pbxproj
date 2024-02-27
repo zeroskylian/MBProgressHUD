@@ -103,12 +103,12 @@
 		080E96DDFE201D6D7F000001 /* HudDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8CD06B0F2B83534E0059F497 /* MBProgressHUD */,
 				D2B1269B23CB8D9C00A01F4C /* HudDemo.entitlements */,
 				D27F18561D3B5DFF009D7482 /* MBHudDemoAppDelegate.h */,
-				D27F18571D3B5DFF009D7482 /* MBHudDemoViewController.h */,
 				D27F18581D3B5DFF009D7482 /* MBHudDemoAppDelegate.m */,
+				D27F18571D3B5DFF009D7482 /* MBHudDemoViewController.h */,
 				D27F18591D3B5DFF009D7482 /* MBHudDemoViewController.m */,
+				8CD06B0F2B83534E0059F497 /* MBProgressHUD */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 			);
